@@ -1,0 +1,16 @@
+#main{
+    text-align: center;
+}
+#wrapper{
+    margin: 15%;
+}
+#content{
+    line-height: 2;
+}
+input{
+    padding: 3% 9%;
+    text-align: center;
+}
+button{
+    padding: 3% 16%;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <title>Document</title>
+    <script src="script2.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header"></div>
+        <div id="main">
+            <div id="content">
+                <input id="time_txt" type="text" name="time">
+                <br>
+
+                <input type="radio" name="time_radio" value="min" id="rad1">
+                <label>Hours to Minutes</label>
+                <br>
+
+                <input type="radio" name="time_radio" value="sec" id="rad2">
+                <label>Hours to Seconds</label>
+                <br>
+                <span id="result"></span>
+                <br>
+                <button type="button" onclick="convert()">Convert</button>
+            </div>
+            <div id="sidebar"></div>
+        </div>
+        <div id="footer"></div>
+    </div>
+</body>
+</html>

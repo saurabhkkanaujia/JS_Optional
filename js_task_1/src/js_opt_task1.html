@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="main">
+            <div id="content">
+                <div class="input_form">
+                    <label for="length">Length of Rectangle </label>
+                    <input id="length" type="text" name="length" placeholder="Length of Rectangle"><span> mtr</span>
+                    <br>
+                    <label for="breadth">Breadth of Rectangle</label>
+                    <input id="breadth" type="text" name="breadth" placeholder="Breadth of Rectangle"><span> mtr</span>
+                    <br>
+                    <button onclick="calc()" type="button">Calculate Area and Perimeter</button>
+                </div>  
+                <div id="result">
+                    <span id="area"></span><br>
+                    <span id="per"></span>
+                </div>  
+            </div>
+            <div id="sidebar"></div>
+        </div>
+        <div id="footer"></div>
+    </div>
+</body>
+</html>
